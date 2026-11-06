@@ -17,7 +17,11 @@ spec:
     spec:
       containers:
       - name: mc-app
+<<<<<<< HEAD
         image: image: ugander/cicd-k8s:15
+=======
+        image: ugander/cicd-k8s:15
+>>>>>>> d0be839 (Fix deployment YAML image reference)
         ports:
         - containerPort: 8080
 
